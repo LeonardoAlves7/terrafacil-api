@@ -16,6 +16,7 @@ namespace terrafacil_api.Models
         public DateTime Data { get; set; }
 
         [Required]
+        [Column(TypeName ="decimal(18,2)")]
         public decimal Preco { get; set; }
 
         [Required]
